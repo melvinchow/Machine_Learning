@@ -1,6 +1,6 @@
 # Predicting Housing Prices - Linear Regression
 
-Data cleaning / preparation performed in Python.
+Data cleaning / preparation performed in Python.  
 Regression model created in both Python and RStudio.
 
 ## Section 1
