@@ -1,3 +1,5 @@
+The ks_housing_data.csv dataset provides housing prices for all houses sold in the Greater Seattle Area from 2014-2015.
+
 # Predicting Housing Prices - Linear Regression
 
 Data cleaning / preparation performed in Python.  
@@ -10,3 +12,30 @@ Create first model.
 ## Section 2
 Recreate model with zipcode converted to category.
 Check model for heteroskedasticity.
+
+
+### Metadata:
+
+	description	variable_type
+id	            a notation for a house	                                                numeric
+date	          Date house was sold	                                                    factor
+price	          Price is prediction target (aka response)	                              numeric
+bedrooms	      Number of bedrooms/House	                                              integer
+bathrooms	      Number of bathrooms/bedrooms	                                          numeric
+sqft_living	    Square footage of the home	                                            integer
+sqft_lot	      Square footage of the lot	                                              integer
+floors	        Total floors (levels) in house	                                        numeric
+waterfront	    House which has a view of the waterfront	                              integer
+view	          Has been viewed	                                                        integer
+condition	      How good is the condition (overall)	                                    integer
+grade	          Grade given to the housing unit, based on county grading system	        integer
+sqft_above	    Square footage of house apart from basement	                            integer
+sqft_basement	  Square footage of the basement	                                        integer
+yr_built	      Year built	                                                            integer
+yr_renovated	  Year house was renovated	                                              integer
+zipcode	        zipcode	                                                                integer
+lat	            Latitude coordinate	                                                    numeric
+long	          Longitude coordinate	                                                  numeric
+sqft_living15	  Living room area in 2015 (implies some renovations). May not affect lot size	integer
+sqft_lot15	    lotSize area in 2015 (implies some renovations)	                        integer
+
